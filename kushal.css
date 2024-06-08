@@ -1,0 +1,68 @@
+body{
+    background-image: url(bgg.avif);
+}
+.links a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1.header{
+    color: rgb(146, 65, 228);
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1.5px 1px 1px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 35px;
+    border-color: rgb(16, 164, 8);
+    border-width: 4.5px;
+}
+
+h3.social{
+color: rgb(223, 86, 62);
+font-family: fantasy;
+font-size: 26px;
+
+
+}
+li.facebook{
+    font-size: 20px;
+    color: lime;
+}
+
+li.instagram{
+    font-size: 20px;
+    color: yellow;
+}
+li.tiktok{
+    font-size: 20px;
+    color: tomato;
+}
+
+h3.portfolio{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    color:rgb(167, 14, 123)
+}
+p.portfolio1{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+.column {
+float: left;
+padding: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
